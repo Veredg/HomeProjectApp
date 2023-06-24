@@ -1,0 +1,6 @@
+<app-search (inputChanged)="getRepos($event)" [searchText]="searchService.searchText"></app-search>
+<div class="text-center mt-4">
+    <button *ngIf="sessionStorageService.hasBookmarks$ | async" class="btn btn-primary" (click)="goToBookmarks()">My
+        Bookmarks</button>
+</div>
+<app-repos-list [repos]="(result$ | async)?.items" [showBookmarkButton]="true"></app-repos-list>

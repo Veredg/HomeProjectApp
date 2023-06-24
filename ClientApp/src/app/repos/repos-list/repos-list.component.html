@@ -1,0 +1,10 @@
+<div *ngIf="spinnerService.isLoading$ | async">
+    <ngx-spinner bdColor="rgba(51,51,51,0.8)" color="#fff" type="ball-spin">
+    </ngx-spinner>
+</div>
+<div *ngIf="repos?.length > 0" class="row mt-4 ms-4 me-4">
+    <div class="col-2" *ngFor=" let repo of repos">
+        <app-repos-card [repo]="repo" [showBookmarkButton]="showBookmarkButton"></app-repos-card>
+    </div>
+</div>
+<div *ngIf="repos?.length === 0" class="text-center mt-3 mb-3">No Repos To Show</div>

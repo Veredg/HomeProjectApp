@@ -1,0 +1,8 @@
+<h1 class="text-center mt-4 mb-4">Welcome To Repositories!</h1>
+<div fxLayout="column" fxLayoutAlign="start center" class="text-center mt-2 mb-2">
+    <input type="text" [maxLength]="250" [(ngModel)]="searchText" placeholder='Type Repository Name'
+        (keyup.enter)="changed($event.target.value)">
+    <button class="btn btn-primary ms-3" [disabled]="inputDisabled(searchText)"
+        (click)="changed(searchText)">Search</button>
+
+</div>

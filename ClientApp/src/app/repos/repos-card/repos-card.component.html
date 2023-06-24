@@ -1,0 +1,16 @@
+<div class="card-wrapper">
+    <div class="card mb-4" *ngIf="repo">
+        <div class="card-img-wrapper mt-2">
+            <img class="img-style mt-1" src="{{repo.owner.avatar_url}}" alt="{{repo.owner.login}}">
+        </div>
+        <div class="card-body p-1">
+            <h6 class="title text-center mb-1">
+                {{repo.name}}
+            </h6>
+            <button *ngIf="showBookmarkButton" [disabled]="repoBookmarked" type="button"
+                class="btn btn-primary btn-sm w-100" (click)="saveRepo(repo)">
+                Bookmark
+            </button>
+        </div>
+    </div>
+</div>
