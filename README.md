@@ -12,16 +12,16 @@ Using Visual Studio Code
 
 Client Setup:
  open new terminal window & run the following commands:
- cd ClientApp
- npm install
+ ```cd ClientApp```
+``` npm install```
 
 Running Server:
 - open new terminal window & run the following commands:
-cd ProjectAppWebAPI
-dotnet run
+```cd ProjectAppWebAPI```
+```dotnet run```
 
 Running Client:
 - open new terminal window & run the following commands:
-cd ClientApp
-ng serve
+```cd ClientApp
+ng serve```
 Open browser & go to `http://localhost:4200`
