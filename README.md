@@ -13,7 +13,7 @@ Using Visual Studio Code
 Client Setup:
  open new terminal window & run the following commands:
  ```cd ClientApp```
-``` npm install```
+```npm install```
 
 Running Server:
 - open new terminal window & run the following commands:
@@ -22,6 +22,6 @@ Running Server:
 
 Running Client:
 - open new terminal window & run the following commands:
-```cd ClientApp
-ng serve```
+```cd ClientApp```
+```ng serve```
 Open browser & go to `http://localhost:4200`
