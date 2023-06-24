@@ -3,7 +3,7 @@ Search and Bookmark GitHub Repositories Project
 #### Prerequisites 
 - [Node.js version 14 and upper installed](https://nodejs.org/en/download/)
 - NPM installed (part of Node.js installation) 
-- [.net Framework version 4.8 installed](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48))
+- [.net Framework version 4.8 installed](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 - [angular cli installed](https://cli.angular.io/)
 
 
