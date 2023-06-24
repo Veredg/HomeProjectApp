@@ -1,5 +1,5 @@
 # HomeProjectApp
-Search and Bookmark Repositories Project
+Search and Bookmark GitHub Repositories Project
 #### Prerequisites 
 - [Node.js version 14 and upper installed](https://nodejs.org/en/download/)
 - NPM installed (part of Node.js installation) 
